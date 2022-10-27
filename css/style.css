@@ -14,7 +14,7 @@
       --margin: 48px;
       --margintop1: 48px;
       --margintop2: 40px;
-      --marginRight:48px;
+      --marginRight: 48px;
 }
 
 body {
@@ -27,11 +27,20 @@ body {
       padding: 0px 100px;
 }
 
-.marginDiv{
+.marginDiv {
       margin-top: 40px;
       margin-bottom: 120px;
       margin-left: 80px;
-      margin-right:80px ;
+      margin-right: 80px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+}
+
+.marginDiv2 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      margin-left: 80px;
+      margin-right: 80px;
       padding-top: 24px;
       padding-bottom: 24px;
 }
@@ -41,7 +50,7 @@ body {
       font-size: 16px;
       background-color: var(--white);
       margin-left: 80px;
-      margin-right:80px ;
+      margin-right: 80px;
 }
 
 .nav-item {
@@ -67,18 +76,26 @@ body {
       background-color: #D1DAFF;
 }
 
+.btn0 {
+      width: 150px;
+      height: 60px;
+      border-radius: 100px;
+      background-color: var(--mainColor);
+      color: var(--white);
+      margin-top: 8px;
+}
 
 
 /* Section 1*/
-#content{
+#content {
       margin-top: var(--margintop1);
 }
 
-.khusus1{
+.khusus1 {
       margin-top: 64px;
 }
 
-.title1{
+.title1 {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 500;
@@ -88,12 +105,12 @@ body {
       margin-top: 32px;
 }
 
-.title1 b{
+.title1 b {
       color: var(--mainColor);
       font-weight: 800;
 }
 
-.paragraf1{
+.paragraf1 {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
@@ -102,12 +119,12 @@ body {
       color: #7B7B7B;
 }
 
-.ctaGroup{
+.ctaGroup {
       margin-top: var(--margintop2);
       margin-left: 4px;
 }
 
-.btn1{
+.btn1 {
       width: 180px;
       height: 60px;
       border-radius: 100px;
@@ -116,19 +133,19 @@ body {
 
 
 /*Section 2*/
-#section2{
+#section2 {
       background-color: #3258E8;
       border-radius: 32px;
       padding: 16px 64px;
 }
 
-.kotak1{
+.kotak1 {
       width: 226px;
       padding: 16px 4px;
       margin: 24px 0px;
 }
 
-.kotak1 h6{
+.kotak1 h6 {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 600;
@@ -137,7 +154,7 @@ body {
       margin-bottom: 16px;
 }
 
-.kotak1 p{
+.kotak1 p {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
@@ -146,24 +163,25 @@ body {
       line-height: 0px;
 }
 
-.garis{
+.garis {
       height: 125px;
       border: 1px solid #EBEBEB;
 
 }
 
 /* Section 3*/
-#section3{
+#section3 {
       padding-right: 80px;
       padding-left: 80px;
 }
 
-.paragrafKhusus{
+.paragrafKhusus {
       color: var(--mainColor);
       font-size: 16px;
       font-weight: 600;
 }
-.title2{
+
+.title2 {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 800;
@@ -172,16 +190,16 @@ body {
       color: var(--darkBlue);
 }
 
-.kolom{
+.kolom {
       padding: 16px 0px;
       margin-bottom: 60px;
 }
 
-.contentt{
+.contentt {
       margin-left: 24px;
 }
 
-.titleKeunggulan{
+.titleKeunggulan {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 800;
@@ -190,7 +208,7 @@ body {
       color: #232631;
 }
 
-.paragrafKeunggulan{
+.paragrafKeunggulan {
       width: 240px;
       height: 60px;
       font-family: 'Poppins';
@@ -202,12 +220,12 @@ body {
 }
 
 /*Section 4*/
-#section4{
+#section4 {
       text-align: center;
       align-items: center;
 }
 
-.title3{
+.title3 {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 800;
@@ -216,44 +234,44 @@ body {
       color: var(--darkBlue);
 }
 
-.card{
+.card {
       border-radius: 24px;
 }
 
-.card-img-top{
+.card-img-top {
       border-radius: 24px 24px 0px 0px;
 }
 
-.card-text{
+.card-text {
       color: var(--white);
       font-size: 16px;
       font-family: 'Poppins';
       line-height: 30px;
 }
 
-.paragraf3{
+.paragraf3 {
       color: var(--font2);
       font-style: normal;
       font-weight: lighter;
 }
 
-.card-body{
+.card-body {
       background-color: var(--mainColor);
       border-radius: 0px 0px 24px 24px;
 }
 
-.card :hover{
+.card :hover {
       box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
 }
 
 /* Section 6*/
-#section6{
+#section6 {
       background-color: #3258E8;
       border-radius: 32px;
       padding: 56px 64px;
 }
 
-.fotoPromo{
+.fotoPromo {
       position: absolute;
       width: 422px;
       height: 478px;
@@ -262,7 +280,7 @@ body {
 
 }
 
-.title21{
+.title21 {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 800;
@@ -272,7 +290,7 @@ body {
 }
 
 
-.btn2{
+.btn2 {
       width: 180px;
       height: 60px;
       border-radius: 100px;
@@ -281,7 +299,7 @@ body {
       margin-top: 8px;
 }
 
-.btn2:hover{
+.btn2:hover {
       width: 180px;
       height: 60px;
       border-radius: 100px;
@@ -291,7 +309,7 @@ body {
 }
 
 /*Section 7*/
-.carousel-indicators li{
+.carousel-indicators li {
       background-color: #D6D6D6;
       border-radius: 100px;
       width: 8px;
@@ -299,7 +317,7 @@ body {
       margin: 8px;
 }
 
-.carousel-indicators .active{
+.carousel-indicators .active {
       background-color: var(--mainColor);
       border-radius: 100px;
       width: 8px;
@@ -307,10 +325,11 @@ body {
       margin: 8px;
 }
 
-.icontesti{
+.icontesti {
       margin-top: 56px;
 }
-.paragraf4{
+
+.paragraf4 {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 500;
@@ -320,7 +339,7 @@ body {
       margin: 48px 0px 48px 0px;
 }
 
-.nama{
+.nama {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
@@ -328,7 +347,7 @@ body {
       line-height: 32px;
 }
 
-.job{
+.job {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
@@ -337,29 +356,29 @@ body {
       color: var(--mainColor);
 }
 
-.jarak{
+.jarak {
       margin-bottom: 175px;
 }
 
 /* ------------- Footer ------------- */
-footer{
+footer {
       background-color: var(--mainColor);
       padding: 24px;
 }
 
-.content{
+.content {
       align-items: center;
       text-align: center;
 }
 
-footer .contentLink{
+footer .contentLink {
       text-decoration: none;
       color: var(--white);
       padding: 8px;
       margin: 400px 16px;
 }
 
-.iconCss{
+.iconCss {
       height: 16px;
       width: 16px;
       padding: 12px;
@@ -369,7 +388,7 @@ footer .contentLink{
       margin: 4px;
 }
 
-.footerCenter{
+.footerCenter {
       text-align: center;
       margin-top: 24px;
       margin-bottom: 24px;
@@ -377,10 +396,11 @@ footer .contentLink{
 
 /*Floating Button*/
 
-.float{
+.float {
       color: var(--white);
 }
-.act-btn{
+
+.act-btn {
       background: #22C55E;
       display: block;
       width: 80px;
@@ -397,76 +417,134 @@ footer .contentLink{
       transition: ease all 0.3s;
       position: fixed;
       right: 72px;
-      bottom:32px;
+      bottom: 32px;
       filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
 
-    }
+}
 
-.act-btn:hover{
+.act-btn:hover {
       background: #FFCE35;
       color: black;
 }
 
 
+/*Profil section1 */
 
+.fotos{
+      margin-bottom:64px;
+}
+
+.paragraf41 {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 40px;
+      color: #7B7B7B;
+}
+
+/*Profil Section 2*/
+
+.kotakVisiMisi{
+      background-color: white;
+}
+
+.kotakDalam{
+      background-color: #EDEDED;
+      margin: 0px 0px 0px 0px;
+      padding: 24px;
+      border-radius: 24px;
+      height: 400px;
+}
+
+.vis{
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 24px;
+      color: var(--mainColor);
+}
+
+.kotakDalam ul li{
+      line-height: 32px;
+}
+
+/*Profil Sectio 3*/
+.tabel{
+      margin-top: 24px;
+}
+
+.tabel thead tr th{
+      background-color: var(--mainColor);
+      line-height: 40px;
+      color: var(--white);
+
+}
+.tabel tr td{
+      font-size: 16px; 
+      line-height: 40px;
+
+}
 /* ------------- Media Queries Mobile ------------- */
-@media screen  and (max-width: 375px)  {
+@media screen and (max-width: 375px) {
       body {
             font-family: 'Poppins', sans-serif;
-            padding: 16px 16px;
+            /* padding: 16px 16px; */
             background-color: blue;
       }
 
-      .marginDiv{
-            margin-top: 32px;
-            margin-bottom: 32px;
+      .marginDiv {
+            margin-top: 40px;
+            margin-bottom: 120px;
+            margin-left: 3px;
+            margin-right: 3px;
+            padding-top: 3px;
+            padding-bottom: 3px;
       }
 
       .navbar {
             font-size: 16px;
             background-color: var(--white);
       }
-      
+
       .nav-item {
             margin: 16px 16px;
             color: var(--font2);
       }
-      
+
       .dropdown-item {
             color: var(--font2);
             font-weight: lighter;
             padding: 16px;
             border-radius: 16px;
       }
-      
+
       .dropdown-menu {
             padding: 16px;
             border: none;
             border-radius: 24px;
             box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
       }
-      
+
       .dropdown-menu :hover {
             background-color: #D1DAFF;
       }
 
-      
-      #content{
+
+      #content {
             margin-top: 0px;
       }
 
-      .fotoSatu{
+      .fotoSatu {
             margin-top: 64px;
             width: 100%;
             text-align: center;
             align-items: center;
       }
 
-      .khusus1{
+      .khusus1 {
             margin-top: 32px;
       }
 
-      .title1{
+      .title1 {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
@@ -476,7 +554,7 @@ footer .contentLink{
             text-align: center;
       }
 
-      .paragraf1{
+      .paragraf1 {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -486,13 +564,13 @@ footer .contentLink{
             text-align: center;
       }
 
-      .ctaGroup{
+      .ctaGroup {
             margin-top: var(--margintop2);
             text-align: center;
-            align-items: center;   
+            align-items: center;
       }
-      
-      .btn1{
+
+      .btn1 {
             align-items: center;
             text-align: center;
             width: 160px;
@@ -502,23 +580,24 @@ footer .contentLink{
             margin-right: 8px;
       }
 
-      .vidioImage{
+      .vidioImage {
             height: 55px;
       }
 
 
-      #section2{
+      #section2 {
             text-align: center;
             align-items: center;
       }
-      .kotak1{
+
+      .kotak1 {
             width: 300px;
             padding: 16px 4px;
             margin: 16px 0px;
             text-align: center;
       }
 
-      .kotak1 p{
+      .kotak1 p {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -527,13 +606,13 @@ footer .contentLink{
             line-height: 0px;
       }
 
-      .garis{
+      .garis {
             height: 0px;
             border: none;
-      
+
       }
-      
-      .paragrafKhusus{
+
+      .paragrafKhusus {
             color: var(--mainColor);
             font-size: 16px;
             font-weight: 600;
@@ -542,7 +621,7 @@ footer .contentLink{
             margin-top: 40px;
       }
 
-      .title2{
+      .title2 {
             text-align: center;
             align-items: center;
             font-family: 'Poppins';
@@ -553,17 +632,17 @@ footer .contentLink{
             margin-bottom: 40px;
             color: var(--darkBlue);
       }
-      
-      .kolom{
+
+      .kolom {
             padding: 16px 0px;
             margin-bottom: 8px;
       }
-      
-      .contentt{
+
+      .contentt {
             margin-left: 24px;
       }
-      
-      .titleKeunggulan{
+
+      .titleKeunggulan {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 800;
@@ -571,8 +650,8 @@ footer .contentLink{
             line-height: 30px;
             color: #232631;
       }
-      
-      .paragrafKeunggulan{
+
+      .paragrafKeunggulan {
             width: 320px;
             height: 60px;
             font-family: 'Poppins';
@@ -586,34 +665,34 @@ footer .contentLink{
 }
 
 /* ------------- Media Queries Teblet -------------*/
-@media screen  and (max-width: 900px)  {
+@media screen and (max-width: 900px) {
       body {
             font-family: 'Poppins', sans-serif;
             padding: 16px 48px;
             background-color: var(--white);
       }
 
-      .marginDiv{
+      .marginDiv {
             margin-top: 32px;
             margin-bottom: 32px;
       }
 
-      #content{
+      #content {
             margin-top: 0px;
       }
 
-      .khusus1{
+      .khusus1 {
             margin-top: 48px;
       }
 
-      .fotoSatu{
+      .fotoSatu {
             margin-top: 64px;
             width: 100%;
             text-align: center;
             align-items: center;
       }
 
-      .title1{
+      .title1 {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
@@ -623,7 +702,7 @@ footer .contentLink{
             text-align: center;
       }
 
-      .paragraf1{
+      .paragraf1 {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -633,13 +712,13 @@ footer .contentLink{
             text-align: center;
       }
 
-      .ctaGroup{
+      .ctaGroup {
             margin-top: var(--margintop2);
             text-align: center;
-            align-items: center;   
+            align-items: center;
       }
-      
-      .btn1{
+
+      .btn1 {
             align-items: center;
             text-align: center;
             width: 160px;
@@ -649,26 +728,27 @@ footer .contentLink{
             margin-right: 8px;
       }
 
-      .vidioImage{
+      .vidioImage {
             height: 55px;
       }
 
 
-      #section2{
+      #section2 {
             text-align: center;
             align-items: center;
       }
-      .kotak1{
+
+      .kotak1 {
             width: 226px;
             padding: 16px 4px;
             margin: 16px 0px;
             text-align: center;
       }
 
-      .garis{
+      .garis {
             height: 0px;
             border: none;
-      
+
       }
 
 }
