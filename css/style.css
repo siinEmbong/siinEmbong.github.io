@@ -234,34 +234,30 @@ body {
       color: var(--darkBlue);
 }
 
-.card {
+#section4 .card {
       border-radius: 24px;
 }
 
-.card-img-top {
+#section4 .card-img-top {
       border-radius: 24px 24px 0px 0px;
 }
 
-.card-text {
+#section4 .card-text {
       color: var(--white);
       font-size: 16px;
       font-family: 'Poppins';
       line-height: 30px;
 }
 
-.paragraf3 {
+#section4 .paragraf3 {
       color: var(--font2);
       font-style: normal;
       font-weight: lighter;
 }
 
-.card-body {
+#section4 .card-body {
       background-color: var(--mainColor);
       border-radius: 0px 0px 24px 24px;
-}
-
-.card :hover {
-      box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
 }
 
 /* Section 6*/
@@ -483,6 +479,42 @@ footer .contentLink {
       line-height: 40px;
 
 }
+
+/*Section 12*/
+#section12 .card-deck{
+      margin-top: 32px;
+}
+#section12 .card {
+      border-radius: 24px;
+}
+
+#section12 .card-img-top {
+      border-radius: 24px 24px 0px 0px;
+}
+
+#section12 .card-title {
+      color: var(--font1);
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Poppins';
+      line-height: 20px;
+}
+
+#section12 .card-text {
+      color: var(--font2);
+      font-size: 14px;
+      font-family: 'Poppins';
+      line-height: 20px;
+}
+
+/*section14*/
+
+#section14 .row {
+      margin-bottom: 56px;
+}
+
+
+
 /* ------------- Media Queries Mobile ------------- */
 @media screen and (max-width: 375px) {
       body {
