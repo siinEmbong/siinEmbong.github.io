@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root {
+      --mainColor: #3258E8;
+      --white: #fff;
+      --red: #FF4949;
+      --green: #1A5862;
+      --yellow: #FFD37A;
+      --orange: #E29600;
+      --softGrey: #ebebeb;
+      --font1: #232631;
+      --font2: #7B7B7B;
+      --darkBlue: #211B3D;
+}
+
+body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--white);
+}
+
+.container-fluid {
+      padding: 16px 80px;
+}
+
+/* ------------- Carosel ------------- */
+.carousel-indicators {
+      height: 90px;
+}
+
+.carousel-indicators .active{
+      background-color: var(--mainColor);
+}
+
+.carousel-indicators li{
+      margin-top: 150px;
+      margin-left: 8px;
+      margin-right: 8px;
+      background-color: var(--softGrey);
+      height: 16px;
+      width: 16px;
+      border-radius: 100px;
+}
+
+/* Testimoni */
+.backgorund{
+      background-color: var(--darkBlue);
+      padding: 40px 80px 100px 80px;
+}
+
+.judul{
+      text-align: center;
+      align-items: center;
+}
+
+.title22 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 64px;
+      margin-bottom: 20px;
+      color: var(--white);
+}
+
+.paragraf {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: var(--font2);
+}
+
+.paragrafKhusus {
+      color: var(--mainColor);
+      font-size: 16px;
+      font-weight: 600;
+}
+
+.card{
+      border-radius: 24px;
+      padding: 32px 24px;
+}
+
+.card-title{
+      font-family: 'Poppins';
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--mainColor);
+}
+
+.isi{
+      color: var(--font1);
+      font-family: 'Poppins';
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: lighter;
+}
+
+.card .profil img{
+      border-radius: 100px;
+      width: 52px;
+}
+
+.prof{
+      padding: 8px 8px 8px 16px;
+}
+
+.textNama{
+      font-family: 'Poppins';
+      font-size: 14px;
+      margin-bottom: 2px;
+      font-weight: 600;
+      color: var(--darkBlue);
+}
+
+.textPekerjaan{
+      font-family: 'Poppins';
+      font-size: 11px;
+      margin: 0px;
+      color: var(--font2);
+}
+
+/* ------------- Media Queries Mobile ------------- */
+      @media screen and (max-width: 600px) {
+            body {
+                  font-family: 'Poppins', sans-serif;
+            }
+
+            .container-fluid {
+                  padding: 16px 16px;
+            }
+
+
+            /* ------------- Carosel ------------- */
+            .carousel-indicators {
+                  height: 24px;
+            }
+            
+            .carousel-indicators .active{
+                  background-color: var(--mainColor);
+            }
+            
+            .carousel-indicators li{
+                  margin-top: 60px;
+                  margin-left: 6px;
+                  margin-right: 6px;
+                  background-color: var(--softGrey);
+                  height: 14px;
+                  width: 14px;
+                  border-radius: 100px;
+            }
+
+            .backgorund{
+                  background-color: var(--darkBlue);
+                  padding: 40px 16px 70px 16px;
+            }
+
+      }
