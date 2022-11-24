@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root {
+      --mainColor: #3258E8;
+      --white: #fff;
+      --red: #FF4949;
+      --green: #1A5862;
+      --yellow: #FFD37A;
+      --orange: #E29600;
+      --softGrey: #ebebeb;
+      --font1: #232631;
+      --font2: #7B7B7B;
+      --darkBlue: #211B3D;
+}
+
+body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--white);
+}
+
+.container-fluid {
+      padding: 16px 80px;
+}
+
+/* ------------- Navbar ------------- */
+.navbar {
+      font-size: 16px;
+      background-color: var(--white);
+}
+
+.nav-item {
+      margin: 16px 16px;
+      color: var(--font2);
+}
+
+.dropdown-item {
+      color: var(--font2);
+      font-weight: lighter;
+      padding: 16px;
+      border-radius: 16px;
+}
+
+.dropdown-menu {
+      padding: 16px;
+      border: none;
+      border-radius: 24px;
+      box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-menu :hover {
+      background-color: #D1DAFF;
+}
+
+.btn0 {
+      font-size: 16px;
+      width: 160px;
+      height: 56px;
+      border-radius: 100px;
+      background-color: var(--mainColor);
+      color: var(--white);
+      margin-top: 8px;
+}
+
+/* Membelah 3 */
+
+.icon{
+      margin-top: 24px;
+      margin-bottom: 8px;
+      height: 56px;
+}
+
+.paragrafKhusus {
+      color: var(--mainColor);
+      font-size: 16px;
+      font-weight: 600;
+}
+
+.title2 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 64px;
+      margin-bottom: 20px;
+      color: var(--darkBlue);
+}
+
+.btn1 {
+      font-size: 16px;
+      width: 180px;
+      height: 60px;
+      border-radius: 100px;
+}
+
+.titleKeunggulan {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 30px;
+      color: #232631;
+}
+
+.paragraf {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: var(--font2);
+}
+
+
+
+/* Section 4 */
+/* .section4{
+      background-color: #1A5862;
+} */
+
+.linkBut{
+      margin-right: 16px;
+}
+
+.vidioImage{
+      height: 60px;
+}
+
+.section4 .row .gambarLing img{
+      width: 95%;
+}
+
+.konten{
+      padding: 48px 16px;
+}
+
+
+
+
+
+/* ------------- Media Queries Mobile ------------- */
+      @media screen and (max-width: 600px) {
+            body {
+                  font-family: 'Poppins', sans-serif;
+            }
+
+            .container-fluid {
+                  padding: 16px 16px;
+            }
+
+            /* ------------- Navbar ------------- */
+
+            .navbar {
+                  font-size: 16px;
+                  background-color: var(--white);
+            }
+
+            .nav-item {
+                  margin: 16px 16px;
+                  color: var(--font2);
+            }
+
+            .dropdown-item {
+                  color: var(--font2);
+                  font-weight: lighter;
+                  padding: 16px;
+                  border-radius: 16px;
+            }
+
+            .dropdown-menu {
+                  padding: 16px;
+                  border: none;
+                  border-radius: 24px;
+                  box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
+            }
+
+            .btn0 {
+                  font-size: 13px;
+                  width: 140px;
+                  height: 48px;
+                  border-radius: 100px;
+                  background-color: var(--mainColor);
+                  color: var(--white);
+                  margin-top: 8px;
+            }
+
+            /* section 3 */
+            .section3 .row{
+                  text-align: center;
+                  align-items: center;
+            }
+
+            .keung{
+                  margin-left: 0px;
+            }
+
+            .btn1 {
+                  font-size: 14px;
+                  width: 160px;
+                  height: 56px;
+                  border-radius: 100px;
+                  margin-bottom: 24px;
+            }
+
+            .section4 .row{
+                  text-align: center;
+                  align-items: center;
+            }
+
+
+            /*Section 4*/
+            .linkBut{
+                  margin-right: 0px;
+            }
+
+            .vidioImage{
+                  height: 50px;
+            }
+
+            .section4 .row .gambarLing img{
+                  width: 100%;
+                  margin-bottom: 40px;
+            }
+
+            .konten{
+                  padding: 0px 16px;
+            }
+
+      }

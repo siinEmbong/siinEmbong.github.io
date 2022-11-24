@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root {
+      --mainColor: #3258E8;
+      --white: #fff;
+      --red: #FF4949;
+      --green: #1A5862;
+      --yellow: #FFD37A;
+      --orange: #E29600;
+      --softGrey: #ebebeb;
+      --font1: #232631;
+      --font2: #7B7B7B;
+      --darkBlue: #211B3D;
+}
+
+body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--white);
+}
+
+.container-fluid {
+      padding: 16px 80px;
+}
+
+/* ------------- Footer ------------- */
+
+footer{
+      background-color: var(--mainColor);
+      color: #fff;
+}
+
+.link{
+      padding-top: 32px;
+}
+
+.sosmed{
+      background-color: var(--darkBlue);
+}
+
+.iconCss {
+      height: 16px;
+      padding: 10px;
+      color: var(--font1);
+      background-color: var(--softGrey);
+      border-radius: 100%;
+      margin-left: 6px;
+      margin-right: 6px;
+      margin-top: 12px;
+      margin-bottom: 16px;
+}
+
+.gambarFoot{
+      margin-bottom: 20px;
+}
+
+.headingFoot{
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: 600;
+}
+
+.contentFoot{
+      font-size: 16px;
+      font-weight: 200;
+      color: var(--white);
+}
+
+
+
+
+
+/* ------------- Media Queries Mobile ------------- */
+      @media screen and (max-width: 600px) {
+            body {
+                  font-family: 'Poppins', sans-serif;
+            }
+
+            .container-fluid {
+                  padding: 16px 16px;
+            }
+
+            /* ------------- Footer ------------- */
+            .textFooter{
+                  text-align: center;
+            }
+
+      }
