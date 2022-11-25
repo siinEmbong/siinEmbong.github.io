@@ -22,34 +22,17 @@ body {
       padding: 16px 80px;
 }
 
-/* ------------- Carosel ------------- */
-.carousel-indicators {
-      height: 90px;
-}
 
-.carousel-indicators .active{
-      background-color: var(--mainColor);
-}
-
-.carousel-indicators li{
-      margin-top: 150px;
-      margin-left: 8px;
-      margin-right: 8px;
-      background-color: var(--softGrey);
-      height: 16px;
-      width: 16px;
-      border-radius: 100px;
-}
-
-/* Testimoni */
+/* ------------- Testimoni ------------- */
 .backgorund{
       background-color: var(--darkBlue);
-      padding: 40px 80px 100px 80px;
+      padding: 60px 80px 80px 80px;
 }
 
 .judul{
       text-align: center;
       align-items: center;
+      margin-bottom: 48px;
 }
 
 .title22 {
@@ -121,6 +104,10 @@ body {
       color: var(--font2);
 }
 
+/* ------------- Testimoni ------------- */
+
+
+
 /* ------------- Media Queries Mobile ------------- */
       @media screen and (max-width: 720px) and (min-width: 375px) {
             body {
@@ -132,28 +119,24 @@ body {
             }
 
 
-            /* ------------- Carosel ------------- */
-            .carousel-indicators {
-                  height: 24px;
-            }
-            
-            .carousel-indicators .active{
-                  background-color: var(--mainColor);
-            }
-            
-            .carousel-indicators li{
-                  margin-top: 60px;
-                  margin-left: 6px;
-                  margin-right: 6px;
-                  background-color: var(--softGrey);
-                  height: 14px;
-                  width: 14px;
-                  border-radius: 100px;
-            }
+            /* ------------- Testimoni ------------- */
 
             .backgorund{
                   background-color: var(--darkBlue);
-                  padding: 40px 16px 70px 16px;
+                  padding: 40px 16px 40px 16px;
             }
 
+            .judul{
+                  text-align: center;
+                  align-items: center;
+                  margin-bottom: 32px;
+            }
+
+            .card{
+                  border-radius: 24px;
+                  padding: 32px 24px;
+                  margin: 12px;
+            }
+
+            /* ------------- Testimoni ------------- */
       }

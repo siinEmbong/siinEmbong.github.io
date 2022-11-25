@@ -22,46 +22,9 @@ body {
       padding: 16px 80px;
 }
 
-/* ------------- Navbar ------------- */
-.navbar {
-      font-size: 16px;
-      background-color: var(--white);
-}
 
-.nav-item {
-      margin: 16px 16px;
-      color: var(--font2);
-}
+/* ------------- Jumlah Siswa ------------- */
 
-.dropdown-item {
-      color: var(--font2);
-      font-weight: lighter;
-      padding: 16px;
-      border-radius: 16px;
-}
-
-.dropdown-menu {
-      padding: 16px;
-      border: none;
-      border-radius: 24px;
-      box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
-}
-
-.dropdown-menu :hover {
-      background-color: #D1DAFF;
-}
-
-.btn0 {
-      font-size: 16px;
-      width: 160px;
-      height: 56px;
-      border-radius: 100px;
-      background-color: var(--mainColor);
-      color: var(--white);
-      margin-top: 8px;
-}
-
-/* Jumlah Siswa */
 .section2{
       background-color: var(--mainColor);
       border-radius: 32px;
@@ -87,6 +50,10 @@ body {
       color: var(--white);
 }
 
+/* ------------- Jumlah Siswa ------------- */
+
+
+
 
 /* ------------- Media Queries Mobile ------------- */
       @media screen and (max-width: 720px) and (min-width: 375px) {
@@ -97,44 +64,4 @@ body {
             .container-fluid {
                   padding: 16px 16px;
             }
-
-            /* ------------- Navbar ------------- */
-
-            .navbar {
-                  font-size: 16px;
-                  background-color: var(--white);
-            }
-
-            .nav-item {
-                  margin: 16px 16px;
-                  color: var(--font2);
-            }
-
-            .dropdown-item {
-                  color: var(--font2);
-                  font-weight: lighter;
-                  padding: 16px;
-                  border-radius: 16px;
-            }
-
-            .dropdown-menu {
-                  padding: 16px;
-                  border: none;
-                  border-radius: 24px;
-                  box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
-            }
-
-            .btn0 {
-                  font-size: 13px;
-                  width: 140px;
-                  height: 48px;
-                  border-radius: 100px;
-                  background-color: var(--mainColor);
-                  color: var(--white);
-                  margin-top: 8px;
-            }
-
-      
-
-
       }

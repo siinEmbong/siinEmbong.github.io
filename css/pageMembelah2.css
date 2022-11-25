@@ -22,46 +22,8 @@ body {
       padding: 16px 80px;
 }
 
-/* ------------- Navbar ------------- */
-.navbar {
-      font-size: 16px;
-      background-color: var(--white);
-}
 
-.nav-item {
-      margin: 16px 16px;
-      color: var(--font2);
-}
-
-.dropdown-item {
-      color: var(--font2);
-      font-weight: lighter;
-      padding: 16px;
-      border-radius: 16px;
-}
-
-.dropdown-menu {
-      padding: 16px;
-      border: none;
-      border-radius: 24px;
-      box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
-}
-
-.dropdown-menu :hover {
-      background-color: #D1DAFF;
-}
-
-.btn0 {
-      font-size: 16px;
-      width: 160px;
-      height: 56px;
-      border-radius: 100px;
-      background-color: var(--mainColor);
-      color: var(--white);
-      margin-top: 8px;
-}
-
-/* Membelah 3 */
+/* ------------- Keunggulan ------------- */
 
 .icon{
       margin-top: 24px;
@@ -110,12 +72,11 @@ body {
       color: var(--font2);
 }
 
+/* ------------- Keunggulan ------------- */
 
 
-/* Section 4 */
-/* .section4{
-      background-color: #1A5862;
-} */
+
+/* ------------- Lingkungan ------------- */
 
 .linkBut{
       margin-right: 16px;
@@ -133,6 +94,7 @@ body {
       padding: 48px 16px;
 }
 
+/* ------------- Lingkungan ------------- */
 
 
 
@@ -147,43 +109,9 @@ body {
                   padding: 16px 16px;
             }
 
-            /* ------------- Navbar ------------- */
+            
 
-            .navbar {
-                  font-size: 16px;
-                  background-color: var(--white);
-            }
-
-            .nav-item {
-                  margin: 16px 16px;
-                  color: var(--font2);
-            }
-
-            .dropdown-item {
-                  color: var(--font2);
-                  font-weight: lighter;
-                  padding: 16px;
-                  border-radius: 16px;
-            }
-
-            .dropdown-menu {
-                  padding: 16px;
-                  border: none;
-                  border-radius: 24px;
-                  box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
-            }
-
-            .btn0 {
-                  font-size: 13px;
-                  width: 140px;
-                  height: 48px;
-                  border-radius: 100px;
-                  background-color: var(--mainColor);
-                  color: var(--white);
-                  margin-top: 8px;
-            }
-
-            /* section 3 */
+            /* ------------- Keunggulan ------------- */
             .section3 .row{
                   text-align: center;
                   align-items: center;
@@ -206,8 +134,13 @@ body {
                   align-items: center;
             }
 
+            /* ------------- Keunggulan ------------- */
 
-            /*Section 4*/
+
+
+
+            /* ------------- Lingkungan ------------- */
+
             .linkBut{
                   margin-right: 0px;
             }
@@ -224,5 +157,7 @@ body {
             .konten{
                   padding: 0px 16px;
             }
+
+            /* ------------- Lingkungan ------------- */
 
       }

@@ -23,7 +23,8 @@ body {
 }
 
 
-/* Promotion */
+/* ------------- Promotion ------------- */
+
 .kotakPromo{
       background-color: var(--mainColor);
       border-radius: 32px;
@@ -87,7 +88,7 @@ body {
       font-weight: 900;
 }
 
-.btn0 {
+.btn00 {
       font-size: 18px;
       width: 225px;
       height: 70px;
@@ -97,6 +98,10 @@ body {
       margin-top: 24px;
       border: none;
 }
+
+/* ------------- Promotion ------------- */
+
+
 
 /* ------------- Media Queries Mobile ------------- */
       @media screen and (max-width: 720px) and (min-width: 375px) {
@@ -108,7 +113,8 @@ body {
                   padding: 16px 16px;
             }
 
-            /* promotion */
+
+            /* ------------- Promotion ------------- */
 
             .kotakPromo{
                   background-color: var(--mainColor);
@@ -185,7 +191,7 @@ body {
                   font-weight: 900;
             }
             
-            .btn0 {
+            .btn00 {
                   font-size: 16px;
                   width: 200px;
                   height: 64px;
@@ -195,6 +201,8 @@ body {
                   margin-top: 12px;
                   border: none;
             }
+
+            /* ------------- Promotion ------------- */
             
 
       }

@@ -22,7 +22,9 @@ body {
       padding: 16px 80px;
 }
 
+
 /* ------------- Navbar ------------- */
+
 .navbar {
       font-size: 16px;
       background-color: var(--white);
@@ -61,6 +63,10 @@ body {
       margin-top: 8px;
 }
 
+/* ------------- Navbar ------------- */
+
+
+
 
 
 /* ------------- Media Queries Mobile ------------- */
@@ -72,6 +78,7 @@ body {
             .container-fluid {
                   padding: 16px 16px;
             }
+
 
             /* ------------- Navbar ------------- */
 
@@ -108,6 +115,8 @@ body {
                   color: var(--white);
                   margin-top: 8px;
             }
+
+            /* ------------- Navbar ------------- */
 
 
       }

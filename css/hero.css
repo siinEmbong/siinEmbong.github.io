@@ -22,22 +22,32 @@ body {
       padding: 16px 80px;
 }
 
-/* ------------- Carosel Hero ------------- */
-.carousel-indicators {
+
+/* ------------- Hero ------------- */
+
+#sectionHero .carousel-indicators {
       height: 90px;
 }
 
-.carousel-indicators li{
-      margin-top: 64px;
+#sectionHero .carousel-indicators .active{
       background-color: var(--darkBlue);
+}
+
+#sectionHero .carousel-indicators li{
+      margin-top: 64px;
+      background-color: var(--softGrey);
       height: 16px;
       width: 16px;
       border-radius: 100px;
 }
 
+
 .imageCar{
       width: 100%;
 }
+
+/* ------------- Hero ------------- */
+
 
 
 
@@ -52,17 +62,24 @@ body {
             }
 
 
-            /* ------------- Carosel Hero ------------- */
-            .carousel-indicators {
+            /* ------------- Hero ------------- */
+
+            #sectionHero .carousel-indicators {
                   height: 24px;
             }
             
-            .carousel-indicators li{
-                  margin-top: 32px;
+            #sectionHero .carousel-indicators .active{
                   background-color: var(--darkBlue);
+            }
+
+            #sectionHero .carousel-indicators li{
+                  margin-top: 32px;
+                  background-color: var(--softGrey);
                   height: 10px;
                   width: 10px;
                   border-radius: 100px;
             }
+
+            /* ------------- Hero ------------- */
 
       }
