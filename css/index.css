@@ -761,6 +761,11 @@ footer{
                   text-align: center;
             }
 
+            .textBawah{
+                  line-height:32px;
+                  padding: 0px 24px;
+            }
+
             /* ------------- Footer ------------- */
             
 
