@@ -474,7 +474,6 @@ footer{
       @media screen and (max-width: 500px)  {
             body {
                   font-family: 'Poppins', sans-serif;
-                  background-color: #1A5862;
             }
 
             .container-fluid {
@@ -621,7 +620,7 @@ footer{
             }
 
             .imgProm{
-                  width: 300px;
+                  width: 250x;
                   text-align: center;
                   align-items: center;
                   margin-bottom: 24px;
