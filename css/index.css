@@ -39,18 +39,19 @@ body {
 /* ------------- Navbar ------------- */
 
 .navbar {
-      font-size: 16px;
+      font-size: 15px;
       background-color: var(--white);
 }
 
 .nav-item {
-      margin: 16px 16px;
+      margin: 0px 16px;
       color: var(--font2);
 }
 
 .dropdown-item {
+      font-size: 15px;
       color: var(--font2);
-      font-weight: lighter;
+      font-weight: normal;
       padding: 16px;
       border-radius: 16px;
 }
@@ -59,7 +60,7 @@ body {
       padding: 16px;
       border: none;
       border-radius: 24px;
-      box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
+      box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.05);
 }
 
 .dropdown-menu :hover {
@@ -67,13 +68,12 @@ body {
 }
 
 .btnn {
-      font-size: 16px;
-      width: 160px;
+      font-size: 15px;
+      width: 120px;
       height: 56px;
       border-radius: 100px;
       background-color: var(--mainColor);
       color: var(--white);
-      margin-top: 8px;
 }
 
 /* ------------- Navbar ------------- */
@@ -531,7 +531,7 @@ footer{
             /* ------------- Navbar ------------- */
 
             .navbar {
-                  font-size: 16px;
+                  font-size: 15px;
                   background-color: var(--white);
             }
 
@@ -542,6 +542,7 @@ footer{
 
             .dropdown-item {
                   color: var(--font2);
+                  font-size: 15px;
                   font-weight: lighter;
                   padding: 16px;
                   border-radius: 16px;
@@ -555,8 +556,8 @@ footer{
             }
 
             .btnn {
-                  font-size: 13px;
-                  width: 140px;
+                  font-size: 14px;
+                  width: 120px;
                   height: 48px;
                   border-radius: 100px;
                   background-color: var(--mainColor);
