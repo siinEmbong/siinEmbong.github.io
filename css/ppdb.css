@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root {
+      --mainColor: #3258E8;
+      --white: #fff;
+      --red: #FF4949;
+      --green: #1A5862;
+      --yellow: #FFD37A;
+      --orange: #E29600;
+      --softGrey: #EFF5F5;
+      --font1: #232631;
+      --font2: #7B7B7B;
+      --darkBlue: #211B3D;
+}
+
+body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--white);
+}
+
+.container-fluid {
+      padding: 16px 80px;
+}
+
+.jarakAtasBawah {
+      margin-top: 88px;
+      margin-bottom: 88px;
+}
+
+.jarakBawah {
+      margin-bottom: 88px;
+}
+
+.jarakAtas {
+      margin-top: 88px;
+}
+
+.title2 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 64px;
+      margin-bottom: 20px;
+      color: var(--darkBlue);
+}
+
+.paragraf41 {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 40px;
+      color: #7B7B7B;
+}
+
+
+/* ------------- Navbar ------------- */
+
+.navbar {
+      font-size: 15px;
+      background-color: var(--white);
+}
+
+.nav-item {
+      margin: 0px 16px;
+      color: var(--font2);
+}
+
+.dropdown-item {
+      font-size: 15px;
+      color: var(--font2);
+      font-weight: normal;
+      padding: 16px;
+      border-radius: 16px;
+}
+
+.dropdown-menu {
+      padding: 16px;
+      border: none;
+      border-radius: 24px;
+      box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-menu :hover {
+      background-color: #D1DAFF;
+}
+
+.btnn {
+      font-size: 15px;
+      width: 120px;
+      height: 56px;
+      border-radius: 100px;
+      background-color: var(--mainColor);
+      color: var(--white);
+}
+
+/* ------------- Navbar ------------- */
+
+.paragraf1 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 36px;
+      color: var(--font1);
+}
+
+/* ------------- Tabel ------------- */
+
+.tabel{
+      margin-top: 24px;
+      width: auto;
+}
+
+.tabel thead tr th{
+      background-color: var(--mainColor);
+      line-height: 40px;
+      color: var(--white);
+
+}
+.tabel tr td{
+      font-size: 16px; 
+      line-height: 40px;
+
+}
+
+/* ------------- Tabel ------------- */
+
+/* ------------- Footer ------------- */
+
+footer{
+      background-color: var(--softGrey);
+      color: var(--font1);
+}
+
+.link{
+      padding-top: 32px;
+}
+
+.sosmed{
+      background-color: var(--softGrey);
+}
+
+.iconCss {
+      height: 16px;
+      padding: 10px;
+      color: var(--white);
+      background-color: var(--darkBlue);
+      border-radius: 100%;
+      margin-left: 6px;
+      margin-right: 6px;
+      margin-top: 12px;
+      margin-bottom: 16px;
+}
+
+.gambarFoot{
+      margin-bottom: 20px;
+}
+
+.headingFoot{
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: 600;
+}
+
+.contentFoot{
+      font-size: 16px;
+      font-weight: 200;
+      color: var(--font1);
+}
+
+
+/* ------------- Footer ------------- */
+
+
+/*Floating Button*/
+
+.float {
+      color: var(--white);
+}
+
+.act-btn {
+      background: #22C55E;
+      display: block;
+      width: 80px;
+      height: 80px;
+      line-height: 88px;
+      align-items: center;
+      text-align: center;
+      color: black;
+      font-size: 40px;
+      font-weight: bold;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      text-decoration: none;
+      transition: ease all 0.3s;
+      position: fixed;
+      right: 72px;
+      bottom: 32px;
+      filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
+
+}
+
+.act-btn:hover {
+      background: #FFCE35;
+      color: black;
+}
+
+
+
+
+
+
+/* ------------- Media Queries Mobile ------------- */
+      @media screen and (max-width: 500px)  {
+            body {
+                  font-family: 'Poppins', sans-serif;
+            }
+
+            .container-fluid {
+                  padding: 16px 16px;
+            }
+
+            .jarakAtasBawah {
+                  margin-top: 40px;
+                  margin-bottom: 40px;
+            }
+            
+            .jarakBawah {
+                  margin-bottom: 40px;
+            }
+            
+            .jarakAtas {
+                  margin-top: 40px;
+            }
+
+            /* ------------- Navbar ------------- */
+
+            .navbar {
+                  font-size: 15px;
+                  background-color: var(--white);
+            }
+
+            .nav-item {
+                  margin: 16px 16px;
+                  color: var(--font2);
+            }
+
+            .dropdown-item {
+                  color: var(--font2);
+                  font-size: 15px;
+                  font-weight: lighter;
+                  padding: 16px;
+                  border-radius: 16px;
+            }
+
+            .dropdown-menu {
+                  padding: 16px;
+                  border: none;
+                  border-radius: 24px;
+                  box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
+            }
+
+            .btnn {
+                  font-size: 14px;
+                  width: 120px;
+                  height: 48px;
+                  border-radius: 100px;
+                  background-color: var(--mainColor);
+                  color: var(--white);
+                  margin-top: 8px;
+            }
+
+            /* ------------- Navbar ------------- */
+
+
+            .tabel{
+                  margin-top: 20px;
+                  width: auto;
+            }
+
+            .tabel tr td{
+                  font-size: 15px; 
+                  line-height: 36px;
+            
+            }
+
+
+            /* ------------- Footer ------------- */
+            
+            .textFooter{
+                  text-align: center;
+            }
+
+            .textBawah{
+                  line-height:32px;
+                  padding: 0px 24px;
+            }
+
+            /* ------------- Footer ------------- */
+            
+
+            .act-btn {
+                  background: #22C55E;
+                  display: block;
+                  width: 64px;
+                  height: 64px;
+                  line-height: 72px;
+                  align-items: center;
+                  text-align: center;
+                  color: black;
+                  font-size: 32px;
+                  font-weight: bold;
+                  border-radius: 50%;
+                  -webkit-border-radius: 50%;
+                  text-decoration: none;
+                  transition: ease all 0.3s;
+                  position: fixed;
+                  right: 24px;
+                  bottom: 24px;
+                  filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
+            
+            }
+
+
+      }
