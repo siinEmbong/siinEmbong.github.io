@@ -96,6 +96,26 @@ body {
 
 /* ------------- Navbar ------------- */
 
+/* ------------- Tabel ------------- */
+
+.tabel{
+      margin-top: 24px;
+      width: auto;
+}
+
+.tabel thead tr th{
+      background-color: var(--mainColor);
+      line-height: 40px;
+      color: var(--white);
+
+}
+.tabel tr td{
+      font-size: 16px; 
+      line-height: 40px;
+
+}
+
+/* ------------- Tabel ------------- */
 
 
 /* ------------- Footer ------------- */
@@ -245,7 +265,16 @@ footer{
 
             /* ------------- Navbar ------------- */
 
+            .tabel{
+                  margin-top: 20px;
+                  width: auto;
+            }
 
+            .tabel tr td{
+                  font-size: 15px; 
+                  line-height: 36px;
+            
+            }
 
             /* ------------- Footer ------------- */
             
