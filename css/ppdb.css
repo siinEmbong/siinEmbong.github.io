@@ -50,7 +50,7 @@ body {
       font-weight: 400;
       font-size: 16px;
       line-height: 40px;
-      color: #7B7B7B;
+      color: var(--font1);
 }
 
 
@@ -125,6 +125,180 @@ body {
 }
 
 /* ------------- Tabel ------------- */
+
+
+h4{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      color: var(--darkBlue);
+      margin-top: 24px;
+      margin-bottom: 24px;
+}
+
+
+/* ------------- Promotion ------------- */
+
+.kotakPromo{
+      background-color: var(--mainColor);
+      border-radius: 32px;
+      padding: 48px 48px 0px 48px;
+}
+
+.title3 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 72px;
+      margin-bottom: 0px;
+      color: var(--darkBlue);
+}
+
+.paragrafKhusus2 {
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.1);
+      width: 180px;
+      text-align: center;
+      padding: 16px;
+      border-radius: 100px;
+}
+
+.prom{
+      font-size: 30px;
+      color: var(--white);
+      margin-bottom: 0px;
+}
+
+.prom2{
+      font-size: 48px;
+      color: var(--white);
+      font-weight: 900;
+      margin-bottom: 0px;
+}
+
+.prom3{
+      font-size: 20px;
+      color: var(--white);
+      margin-bottom: 0px;
+      line-height: 45px;
+}
+
+.prom4{
+      font-size: 19px;
+      color: var(--white);
+      background-color: #C82333;
+      padding: 6px 14px;
+      border-radius: 100px;
+      font-weight: 600;
+      margin-bottom: 0px;
+      
+}
+
+.tebalKhus{
+      font-size: 50px;
+      font-weight: 900;
+}
+
+.btn00 {
+      font-size: 18px;
+      width: 225px;
+      height: 70px;
+      border-radius: 100px;
+      background-color: #C82333;
+      color: var(--white);
+      margin-top: 24px;
+      border: none;
+}
+
+/* ------------- Promotion ------------- */
+
+
+/* ------------- Testimoni ------------- */
+.backgorund{
+      background-color: var(--darkBlue);
+      padding: 60px 80px 80px 80px;
+}
+
+#testimoni .judul{
+      text-align: center;
+      align-items: center;
+      margin-bottom: 48px;
+}
+
+#testimoni .title22 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 64px;
+      margin-bottom: 20px;
+      color: var(--white);
+}
+
+#testimoni .paragraf {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: var(--font2);
+}
+
+#testimoni .paragrafKhusus {
+      color: var(--mainColor);
+      font-size: 16px;
+      font-weight: 600;
+}
+
+#testimoni .card{
+      border-radius: 24px;
+      padding: 32px 24px;
+}
+
+#testimoni .card-title{
+      font-family: 'Poppins';
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--mainColor);
+}
+
+#testimoni .isi{
+      color: var(--font1);
+      font-family: 'Poppins';
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: lighter;
+}
+
+#testimoni .card .profil img{
+      border-radius: 100px;
+      width: 52px;
+}
+
+#testimoni .prof{
+      padding: 8px 8px 8px 16px;
+}
+
+#testimoni .textNama{
+      font-family: 'Poppins';
+      font-size: 14px;
+      margin-bottom: 2px;
+      font-weight: 600;
+      color: var(--darkBlue);
+}
+
+#testimoni .textPekerjaan{
+      font-family: 'Poppins';
+      font-size: 11px;
+      margin: 0px;
+      color: var(--font2);
+}
+
+/* ------------- Testimoni ------------- */
+
 
 /* ------------- Footer ------------- */
 
@@ -285,6 +459,116 @@ footer{
             
             }
 
+            /* ------------- Promotion ------------- */
+
+            .kotakPromo{
+                  background-color: var(--mainColor);
+                  border-radius: 32px;
+                  padding: 48px 32px 48px 32px;
+                  text-align: center;
+                  align-items: center;
+            }
+
+            .imgProm{
+                  width: 100%;
+                  text-align: center;
+                  align-items: center;
+                  margin-bottom: 24px;
+            }
+
+            .title3 {
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 800;
+                  font-size: 44px;
+                  line-height: 72px;
+                  margin-bottom: 0px;
+                  color: var(--darkBlue);
+                  text-align: center;
+                  align-items: center;
+            }
+            
+            .paragrafKhusus2 {
+                  color: var(--white);
+                  font-size: 16px;
+                  font-weight: 600;
+                  background: rgba(255, 255, 255, 0.1);
+                  width: auto;
+                  text-align: center;
+                  align-items: center;
+                  padding: 16px;
+                  border-radius: 100px;
+            }
+            
+            .prom{
+                  font-size: 22px;
+                  color: var(--white);
+                  margin-bottom: 0px;
+            }
+            
+            .prom2{
+                  font-size: 33px;
+                  color: var(--white);
+                  font-weight: 900;
+                  margin-bottom: 0px;
+            }
+            
+            .prom3{
+                  font-size: 16px;
+                  color: var(--white);
+                  margin-bottom: 0px;
+                  line-height: 40px;
+            }
+            
+            .prom4{
+                  font-size: 13px;
+                  color: var(--white);
+                  background-color: #C82333;
+                  padding: 6px 14px;
+                  border-radius: 100px;
+                  font-weight: 600;
+                  margin-bottom: 0px;
+                  
+            }
+            
+            .tebalKhus{
+                  font-size: 30px;
+                  font-weight: 900;
+            }
+            
+            .btn00 {
+                  font-size: 16px;
+                  width: 200px;
+                  height: 64px;
+                  border-radius: 100px;
+                  background-color: #C82333;
+                  color: var(--white);
+                  margin-top: 12px;
+                  border: none;
+            }
+
+            /* ------------- Promotion ------------- */
+
+            /* ------------- Testimoni ------------- */
+
+            .backgorund{
+                  background-color: var(--darkBlue);
+                  padding: 40px 16px 40px 16px;
+            }
+
+            #testimoni .judul{
+                  text-align: center;
+                  align-items: center;
+                  margin-bottom: 32px;
+            }
+
+            #testimoni .card{
+                  border-radius: 24px;
+                  padding: 32px 24px;
+                  margin: 12px;
+            }
+
+            /* ------------- Testimoni ------------- */
 
             /* ------------- Footer ------------- */
             
