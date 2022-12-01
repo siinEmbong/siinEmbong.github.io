@@ -45,12 +45,30 @@ body {
       color: var(--darkBlue);
 }
 
+.title20 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 64px;
+      margin-bottom: 20px;
+      color: var(--darkBlue);
+}
+
 .paragraf41 {
       font-family: 'Poppins';
       font-weight: 400;
       font-size: 16px;
-      line-height: 40px;
-      color: #7B7B7B;
+      line-height: 35px;
+      color: var(--font1);
+}
+
+.paragraf411 {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 35px;
+      color: var(--font1);
 }
 
 
@@ -117,6 +135,50 @@ body {
 
 /* ------------- Tabel ------------- */
 
+
+/* card */
+.card{
+      border-radius: 20px;
+}
+
+.card img{
+      border-radius: 20px 20px 0px 0px;
+}
+
+.card .card-footer{
+      border-radius: 0px 0px 20px 20px;
+}
+.card-title{
+      line-height: 32px;
+}
+
+
+.ikon{
+     color: var(--font2); 
+     margin-right: 8px ;
+     font-size: 18px;
+     line-height: 24px;
+}
+.paragrafKhusus{
+      font-size: 14px;
+      line-height: 20px;
+      color: var(--font2);
+}
+
+.detail .row{
+      margin-top: 0px;
+      margin-left: 0px;
+}
+
+.card-text{
+      font-size: 14px;
+      line-height: 24px;
+      color: var(--font2);
+}
+
+.card-footer{
+      padding: 20px 40px;
+}
 
 /* ------------- Footer ------------- */
 
@@ -274,6 +336,48 @@ footer{
                   font-size: 15px; 
                   line-height: 36px;
             
+            }
+
+            .paragrafKhusus{
+                  font-size: 14px;
+                  line-height: 20px;
+                  color: var(--font2);
+                  text-align: center;
+                  align-items: center;
+            }
+
+            .paragraf411 {
+                  font-family: 'Poppins';
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 35px;
+                  color: var(--font1);
+                  text-align: center;
+                  align-items: center;
+            }
+
+            .title20 {
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 800;
+                  font-size: 40px;
+                  line-height: 64px;
+                  margin-bottom: 20px;
+                  color: var(--darkBlue);
+                  text-align: center;
+                  align-items: center;
+            }
+
+            .konten{
+                  text-align: center;
+                  align-items: center;
+            }
+
+            .kus{
+                  text-align: center;
+                  align-items: center;
+                  margin-top: 24px;
+                  
             }
 
             /* ------------- Footer ------------- */
