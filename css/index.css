@@ -117,6 +117,7 @@ body {
       font-size: 48px;
       color: var(--white);
       font-weight: 750;
+      
 }
 
 .section2 img{
@@ -227,6 +228,15 @@ body {
       color: var(--font2);
 }
 
+.paragraf12{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: var(--font1);
+}
+
 /* ------------- Keunggulan ------------- */
 
 
@@ -328,7 +338,7 @@ body {
       width: 225px;
       height: 70px;
       border-radius: 100px;
-      background-color: #C82333;
+      background-color: var(--darkBlue);
       color: var(--white);
       margin-top: 24px;
       border: none;
@@ -498,6 +508,18 @@ footer{
 .act-btn:hover {
       background: #FFCE35;
       color: black;
+}
+
+.icon{
+      height: 32px;
+      width: 32px;
+      padding: 12px;
+      color: var(--darkBlue);
+      /* background-color: var(--white); */
+      border-radius: 100%;
+      margin-top: 40px;
+      margin-bottom: 8px;
+      border: dashed 2.5px var(--darkBlue);
 }
 
 
@@ -727,7 +749,7 @@ footer{
                   width: 200px;
                   height: 64px;
                   border-radius: 100px;
-                  background-color: #C82333;
+                  background-color: var(--darkBlue);
                   color: var(--white);
                   margin-top: 12px;
                   border: none;
@@ -792,5 +814,16 @@ footer{
             
             }
 
+            .icon{
+                  height: 32px;
+                  width: 32px;
+                  padding: 12px;
+                  color: var(--darkBlue);
+                  /* background-color: var(--white); */
+                  border-radius: 100%;
+                  margin-top: 16px;
+                  margin-bottom: 8px;
+                  border: dashed 2.5px var(--darkBlue);
+            }
 
       }

@@ -53,6 +53,15 @@ body {
       color: #7B7B7B;
 }
 
+.paragraf1 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 36px;
+      color: var(--font1);
+}
+
 
 /* ------------- Navbar ------------- */
 

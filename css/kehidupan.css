@@ -299,7 +299,7 @@ body {
       width: 225px;
       height: 70px;
       border-radius: 100px;
-      background-color: #C82333;
+      background-color: var(--darkBlue);
       color: var(--white);
       margin-top: 24px;
       border: none;
@@ -571,7 +571,7 @@ footer{
                   width: 200px;
                   height: 64px;
                   border-radius: 100px;
-                  background-color: #C82333;
+                  background-color: var(--darkBlue);
                   color: var(--white);
                   margin-top: 12px;
                   border: none;
